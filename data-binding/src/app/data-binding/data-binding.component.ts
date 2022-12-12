@@ -21,6 +21,16 @@ export class DataBindingComponent implements OnInit {
     return true;
   }
 
+  botaoClicado() {
+    alert('Botão clicado!')
+  }
+
+  onKeyUp(evento: KeyboardEvent) {
+    console.log((<HTMLInputElement>evento.target).value);
+
+
+  }
+
   constructor() { }
 
   ngOnInit(): void {
