@@ -31,6 +31,10 @@
         </div>
         <br><br>
 
+        <div class="alert {{ classe.value }}" role="alert">
+            Texto colorido conforme o valor do combobox.
+        </div>
+
         <div class="alert alert" role="alert" [class.alert-success]="classe.value == 'alert-success'">
             Sucesso</div>
 
