@@ -14,6 +14,7 @@ export class DataBindingComponent implements OnInit {
   urlImagem: string = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/1200px-Shaqi_jrvej.jpg'
 
   valorAtual: string = '';
+  valorSalvo: string = '';
 
   getValor() {
     return 1;
@@ -31,7 +32,10 @@ export class DataBindingComponent implements OnInit {
     this.valorAtual = ((<HTMLInputElement>evento.target).value);
 
     console.log(this.valorAtual);
+  }
 
+  salvarValor(valor: any) {
+    this.valorSalvo = valor;
   }
 
   constructor() { }
