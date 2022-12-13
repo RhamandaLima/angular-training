@@ -86,9 +86,12 @@
         <h3>Two-way data binding</h3>
         <div>
             <input type="text"
-            [value]="nome"/>
+            [value]="nome"
+            (input)="nome = $any($event.target).value"/>
         </div>
 
-        
+        <p>Você digitou: {{ nome }}</p>
+
+
     </article>
 </section>
