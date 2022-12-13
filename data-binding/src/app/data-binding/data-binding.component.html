@@ -99,5 +99,13 @@
 
             <p>Você digitou: {{ nome }}</p>
         </div>
+
+        <div>
+
+            <p>Meu nome é {{ pessoa.nome }} e tenho {{ pessoa.idade }} anos de idade</p>
+            <input type="text" [(ngModel)]="pessoa.nome">
+            <input type="text" [(ngModel)]="pessoa.idade">
+
+        </div>
     </article>
 </section>
