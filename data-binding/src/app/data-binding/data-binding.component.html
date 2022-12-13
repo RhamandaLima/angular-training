@@ -95,6 +95,8 @@
             (ngModelChange)="nome = $any($event)"
             />
 
+            <input type="text" [(ngModel)]="nome">
+
             <p>Você digitou: {{ nome }}</p>
         </div>
     </article>
