@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'App works!';
+
+  valor: number = 5;
+
+  mudarValor() {
+    this.valor++;
+  }
 }
