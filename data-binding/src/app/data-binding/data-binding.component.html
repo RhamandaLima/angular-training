@@ -90,7 +90,9 @@
 
         <app-curso [nome]="nomeCurso"></app-curso>
 
-        <contador></contador>
+        <contador [valor]="valorInicial"
+        (mudouValor)="onMudouValor($event)"
+        ></contador>
     </article>
 
 </section>
