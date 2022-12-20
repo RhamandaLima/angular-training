@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-diretiva-ngif',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./diretiva-ngif.component.css']
 })
 export class DiretivaNgifComponent {
+
 
 
 }
