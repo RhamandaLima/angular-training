@@ -1,5 +1,4 @@
 <h5>*ngIf</h5>
-
 <div *ngIf="cursos.length > 0">
   Lista de cursos aqui.
 </div>
@@ -17,6 +16,8 @@
 <br>
 
 <button (click)="onMostrarCursos()">Mostrar ou esconder cursos</button>
+
+<br>
 
 <h5>Hidden como alternativa</h5>
 <div [hidden]="!mostrarCursos">
