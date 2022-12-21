@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './diretiva-ngswitch.component.html',
   styleUrls: ['./diretiva-ngswitch.component.scss']
 })
-export class DiretivaNgswitchComponent implements OnInit {
+export class DiretivaNgswitchComponent {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
