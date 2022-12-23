@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './diretiva-ngfor.component.html',
   styleUrls: ['./diretiva-ngfor.component.scss']
 })
-export class DiretivaNgforComponent implements OnInit {
+export class DiretivaNgforComponent {
+
+  cursos: string[] = ["Angular 2", "Java", "Phonegap"];
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }
