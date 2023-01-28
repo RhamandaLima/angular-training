@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './diretiva-ngclass.component.html',
   styleUrls: ['./diretiva-ngclass.component.scss']
 })
-export class DiretivaNgclassComponent implements OnInit {
+export class DiretivaNgclassComponent {
+
+  meuFavorito: boolean = false;
 
   constructor() { }
 
-  ngOnInit(): void {
+  onClick() {
+    this.meuFavorito = !this.meuFavorito;
   }
-
 }
