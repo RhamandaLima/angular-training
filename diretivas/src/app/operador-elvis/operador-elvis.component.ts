@@ -5,11 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './operador-elvis.component.html',
   styleUrls: ['./operador-elvis.component.scss']
 })
-export class OperadorElvisComponent implements OnInit {
+export class OperadorElvisComponent {
+
+  tarefa: any = {
+    desc: 'Descrição da tarefa',
+    responsavel: null
+    // responsavel: {nome: 'Rhamanda'}
+  };
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
