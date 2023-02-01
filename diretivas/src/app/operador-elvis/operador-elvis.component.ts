@@ -9,7 +9,9 @@ export class OperadorElvisComponent {
 
   tarefa: any = {
     desc: 'Descrição da tarefa',
-    responsavel: null
+    responsavel: {
+      usuario: null
+    }
     // responsavel: {nome: 'Rhamanda'}
   };
 
