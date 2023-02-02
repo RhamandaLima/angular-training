@@ -14,6 +14,7 @@ import { OperadorElvisComponent } from './operador-elvis/operador-elvis.componen
 import { ExemploNgContentComponent } from './exemplo-ng-content/exemplo-ng-content.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     DiretivaNgclassComponent,
     DiretivaNgstyleComponent,
     OperadorElvisComponent,
-    ExemploNgContentComponent
+    ExemploNgContentComponent,
+    FundoAmareloDirective
   ],
   imports: [
     BrowserModule,
