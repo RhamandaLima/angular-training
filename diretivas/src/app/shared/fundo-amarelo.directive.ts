@@ -1,10 +1,13 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
   selector: '[appFundoAmarelo]'
 })
 export class FundoAmareloDirective {
 
-  constructor() { }
+  constructor(private _elementRef: ElementRef) {
+    //console.log(this._elementRef);
+    this._elementRef.nativeElement.style.backgroundColor = 'yellow'
+   }
 
 }
